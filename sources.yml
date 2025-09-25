@@ -5,6 +5,10 @@ sources:
     database: PC_FIVETRAN_DB
     schema: GOOGLE_ADS_DEMO
     tables:
-      - name: click_performance
-      - name: criteria_performance
-      - name: final_url_performance
+      - name: account_history
+      - name: account_stats
+      - name: ad_history
+      - name: ad_stats
+      - name: campaign_history
+      - name: campaign_stats
+      - name: keyword_stats
