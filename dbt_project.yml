@@ -39,3 +39,26 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 vars:
     google_ads_schema: 'GOOGLE_ADS_DEMO'
+
+models:
+  google_ads_source:
+    stg_google_ads__account_history_tmp:
+      +enabled: false
+    stg_google_ads__account_stats_tmp:
+      +enabled: false
+    stg_google_ads__ad_group_criterion_history_tmp:
+      +enabled: false
+    stg_google_ads__ad_group_history_tmp:
+      +enabled: false
+    stg_google_ads__ad_group_stats_tmp:
+      +enabled: false
+    stg_google_ads__ad_history_tmp:
+      +enabled: false
+    stg_google_ads__ad_stats_tmp:
+      +enabled: false
+    stg_google_ads__campaign_history_tmp:
+      +enabled: false
+    stg_google_ads__campaign_stats_tmp:
+      +enabled: false
+    stg_google_ads__keyword_stats_tmp:
+      +enabled: false
